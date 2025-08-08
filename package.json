@@ -1,0 +1,68 @@
+{
+  "name": "genericcrud",
+  "version": "1.0.0",
+  "description": "A reusable React component for CRUD operations with search and customizable actions.",
+  "main": "index.js",
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./styles": "./src/styles.js"
+  },
+  "files": [
+    "index.js",
+    "src/",
+    "README.md"
+  ],
+  "dependencies": {
+    "lucide-react": "^0.263.1",
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.22.0",
+    "@babel/preset-react": "^7.22.0",
+    "@testing-library/jest-dom": "^5.16.0",
+    "@testing-library/react": "^13.0.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "babel-jest": "^29.0.0",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^29.0.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "jsdom": "^22.0.0",
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "start": "npx serve -s . -p 3000",
+    "dev": "npx serve -s . -p 3000",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "build": "echo 'No build step needed for JSX'",
+    "lint": "echo 'Add ESLint configuration'",
+    "type-check": "tsc --noEmit"
+  },
+  "keywords": [
+    "react",
+    "crud",
+    "table",
+    "search",
+    "reusable-component",
+    "data-table",
+    "form",
+    "management"
+  ],
+  "author": "Abdulkader Shanbour",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abd-shan/genericCrud.git"
+  },
+  "bugs": {
+    "url": "https://github.com/abd-shan/genericCrud/issues"
+  },
+  "homepage": "https://github.com/abd-shan/genericCrud#readme",
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  }
+}
