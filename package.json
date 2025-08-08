@@ -1,8 +1,9 @@
 {
-  "name": "genericcrud",
+  "name": "@abd-shan/genericcrud",
   "version": "1.0.0",
   "description": "A reusable React component for CRUD operations with search and customizable actions.",
   "main": "index.js",
+  "module": "index.js",
   "type": "module",
   "exports": {
     ".": "./index.js",
@@ -11,7 +12,8 @@
   "files": [
     "index.js",
     "src/",
-    "README.md"
+    "README.md",
+    "LICENSE"
   ],
   "dependencies": {
     "lucide-react": "^0.263.1",
@@ -49,9 +51,16 @@
     "reusable-component",
     "data-table",
     "form",
-    "management"
+    "management",
+    "react-component",
+    "ui",
+    "interface"
   ],
-  "author": "Abdulkader Shanbour",
+  "author": {
+    "name": "Abdulkader Shanbour",
+    "email": "abdulkader.shanbour@gmail.com",
+    "url": "https://github.com/abd-shan"
+  },
   "license": "MIT",
   "repository": {
     "type": "git",
